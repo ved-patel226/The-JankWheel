@@ -19,6 +19,7 @@
 
 - [ ] Custom firmware to control the motor + read pedal data (with gui)
 - [x] All CAD files used to create the JankWheel
+- [x] All GERBER files used to create the JankWheelPCB 
 - [ ] Step-by-step instructions
 
 # How does it work?
