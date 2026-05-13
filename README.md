@@ -1,5 +1,6 @@
 # The JankWheel
-### An affordable DIY sim racing wheel + pedals
+### Affordable DIY sim racing wheel + pedals
+
 
 
 <table>
@@ -11,9 +12,22 @@
 
 <br>
 
+# What will this project include?
+
+- [ ] Custom firmware to control the motor + read pedal data (with gui)
+- [x] All CAD files used to create the JankWheel
+- [ ] Step-by-step instructions
+
+# How does it work?
+
+1. The **wheel ESP32** acts as an USB HID device connected to the PC and fetches data from the racing simulator
+2. It processes this data and sends torque information to the motor controller (FOC). This generates the force feedback.
+3. The **pedal ESP32** sends hall effect sensor data to the **wheel ESP32** via UART (carried through an Ethernet cable)
+4. The **wheel ESP32** sends all this data back to the computer and interacts with the simulator
+
+
 # 🧩 Cad Links (Onshape)
 
-<div align="center">
 
 <a href="https://cad.onshape.com/documents/801918117367e1510024d274/w/b760bfe1f718564b3afe7bc0/e/a17cc89e60c8d7dd4e027ee4?renderMode=0&uiState=6a03b4db2263794b42f01eec" style="text-decoration: none;">
 
@@ -57,6 +71,4 @@
 
 <br>
 
-</div>
 
-<br>
