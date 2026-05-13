@@ -7,9 +7,12 @@
   <tr>
     <td><img src="https://github.com/user-attachments/assets/0e854361-b1cb-41f8-b3a4-bf377db4d847" width="400" height="300" style="object-fit: cover;"></td>
     <td><img src="https://github.com/user-attachments/assets/bc3a2da3-172f-4642-bec8-ea68f714ef6a" width="400" height="300" style="object-fit: cover;"></td>
+    <td><img src="https://github.com/user-attachments/assets/e2637b34-727d-4363-9bcd-93c143812c7c" width="400" height="300" style="object-fit: cover;"></td>
+
+
+
   </tr>
 </table>
-
 <br>
 
 # What will this project include?
